@@ -1,9 +1,0 @@
-<div class="ui container">
-  <reddit-article-list-header></reddit-article-list-header>
-  <div class="ui divided items">
-    <reddit-article
-            *ngFor="let article of articles | async"
-            [article]="article"
-            class="item"></reddit-article>
-  </div>
-</div>
